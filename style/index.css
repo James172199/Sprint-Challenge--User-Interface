@@ -364,3 +364,17 @@ textarea {
 .button {
   text-align: center;
 }
+
+@keyframes animation {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: dodgerblue;
+  }
+}
+
+a:link:hover {
+  animation-name: animation;
+  animation-duration: 4s;
+}
