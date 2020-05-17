@@ -342,11 +342,25 @@ a:link {
     justify-items: space-evenly;
     align-items: center;
   }
+}
 
-  .boxes:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: left;
-  }
+#p2 {
+  word-wrap: normal;
+  margin: 15rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  text-align: center;
 }
